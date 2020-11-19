@@ -1,3 +1,5 @@
+// instance
+
 function Obj(p1, p2) {
   this.p1 = p1
   this.p2 = p2
@@ -31,3 +33,7 @@ console.log(Obj2.prototype)
 console.log(obj2.__proto__ === Obj2.prototype)
 console.log(obj2.constructor)
 console.log(Obj2.prototype.constructor)
+
+
+console.log(obj1 instanceof Obj)
+console.log(obj2 instanceof Obj)

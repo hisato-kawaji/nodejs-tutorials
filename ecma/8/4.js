@@ -1,3 +1,5 @@
+// prototypeの挙動の違い
+
 function regular() {}
 const arrow = () => {}
 

@@ -1,3 +1,5 @@
+// Object
+
 const hoge = {}
 
 hoge.fuga = 'fuga'

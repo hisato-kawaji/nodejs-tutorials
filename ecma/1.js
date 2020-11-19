@@ -1,3 +1,5 @@
+// const, let, var
+
 const a = 'a'
 
 // 代入しようとするとエラー

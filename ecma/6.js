@@ -1,8 +1,8 @@
-// 関数宣言
+// 関数宣言, allow関数
+
 function aaa(a) {
   console.log(a)
 }
-
 
 aaa(1)
 
@@ -67,4 +67,9 @@ const d = (key) => {
 }
 d(1)
 
+function k(a = 1) {
+  console.log(a + 1)
+}
 
+k(4)
+k()

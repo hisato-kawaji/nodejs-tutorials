@@ -1,14 +1,24 @@
+// 型(primitive)
+
 const a = 123
 const b = "aiu"
 const c = true
 
 console.log(a)
-console.log(a.toString())
+console.log(b)
+console.log(c)
+console.log(type of a)
+console.log(type of b)
+console.log(type of c)
 
 // 非推奨(Newする意味がない)
 const a2 = new Number(123)
 const b2 = new String("abc")
 const c2 = new Boolean(true)
+
+console.log(type of a)
+console.log(type of b)
+console.log(type of c)
 
 // 型変換
 console.log(a)

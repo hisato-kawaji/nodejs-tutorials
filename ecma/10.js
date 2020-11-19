@@ -1,3 +1,5 @@
+// this, apply, call, bind
+
 const target = {
   a: 'hoge',
   open() { console.log(`${this.a}`) }

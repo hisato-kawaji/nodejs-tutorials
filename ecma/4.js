@@ -1,3 +1,5 @@
+// Map, Set(WeakMap, WeakSetは割愛), iterator
+
 let a = new Map()
 a.set('a', 1)
 console.log(a.size)
@@ -22,11 +24,11 @@ a.forEach((value, key) => {
 // for (const [key, value] of a.entries()) {
 //     results.push(`${key}:${value}`)
 // })
-// for (const [key, value] of map) {
+// for (const [key, value] of a) {
 //     results.push(`${key}:${value}`)
 // })
 // keyだけを行う場合
-//for (const key of map.keys()) {
+//for (const key of a.keys()) {
 //    result.push(key);
 //}
 
@@ -57,16 +59,16 @@ p.forEach((value) => {
 
 // 下記はループ処理の他の書き方、結果も少し異なる
 //results = [];
-//for (const value of set.keys()) {
+//for (const value of p.keys()) {
 //    results.push(value)
 //}
 //results = [];
-//for (const entry of set.entries()) {
+//for (const entry of p.entries()) {
 //    // entryは[値, 値]という配列
 //    results.push(entry)
 //}
 //results = [];
-//for (const value of set) {
+//for (const value of p) {
 //    results.push(value)
 //}
 console.log(results)

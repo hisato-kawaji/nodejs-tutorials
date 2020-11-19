@@ -1,3 +1,5 @@
+// 引数
+
 function aaa(a, b) {
   console.log(a, b)
 }

@@ -1,4 +1,4 @@
-
+// try catch
 
 try {
   throw new Error('a')

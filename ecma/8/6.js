@@ -1,3 +1,5 @@
+// function宣言では関数の上書きができる
+
 function regular() {
     console.log(1)
 }

@@ -1,4 +1,6 @@
-let count = 0 
+// class, extends
+
+let count = 0
 class a {
   constructor(p,q) {
     this.p = p
@@ -67,3 +69,5 @@ x.open()
 a.cross()
 y.open()
 z.open()
+
+// abstract class や interfaceはTypeScriptの範囲なので割愛（実装すれば似たようなことはできるが）

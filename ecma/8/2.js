@@ -1,3 +1,5 @@
+// arrow関数との違いその２
+
 function regular() {
   console.log(1)
 }

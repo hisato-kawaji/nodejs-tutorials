@@ -1,3 +1,5 @@
+// thisの挙動の違い
+
 function regular() {
     return this
 }

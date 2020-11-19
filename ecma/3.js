@@ -1,3 +1,5 @@
+// Symbol
+
 const obj = {}
 const HOGE = Symbol()
 

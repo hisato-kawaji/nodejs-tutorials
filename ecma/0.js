@@ -1,4 +1,4 @@
-// 関数宣言
+// 基礎
 
 function aaa(a) {
   console.log(a)

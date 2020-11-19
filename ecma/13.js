@@ -1,3 +1,5 @@
+// true falseの判定
+
 const a = undefined
 const b = null
 const c = 0
