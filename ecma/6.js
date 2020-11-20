@@ -73,3 +73,9 @@ function k(a = 1) {
 
 k(4)
 k()
+
+const f = () => ({ foo: 1 })
+console.log(f())
+
+const sqrt = x => x * x
+cosole.log(squared(3))
