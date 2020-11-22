@@ -1,4 +1,9 @@
-# node.js tutorial for beginners' learning
+# Node.js tutorial for beginners' learning
+
+Node.jsを手軽に学ぶためのサンプルスクリプト集
+This repository gives some sample script which demonstrates the feature of Node.js
+
+# サンプルスクリプト / Sample scripts
 
 `ecma/`
 ECMAScript(ES6)ベースの基礎スクリプト集
