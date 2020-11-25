@@ -5,15 +5,18 @@ const isNum = (a) => {
   return new Promise(
     (callback, error) => {
       if (typeof a === 'number') {
-        callback(a);
+        callback(a)
+      } else {
+        error(a)
       }
-        error(a);
-      }, 200
+    }, 200
   )
 }
 
 function onSuccess(p) {
   console.log(p)
+  // どこで中断させるかを条件を変更してみるといいかもしれない
+  if (p > 7) return isNum(p.toString())
   return isNum(p * 2)
 }
 
