@@ -17,8 +17,8 @@
 
 const a = {};
 const b = {
-  get: function (receiver, param) {
-    return `${param} is assigned`;
+  get: (receiver, param) => {
+    return `${param} is assigned`
   }
 }
 
@@ -27,7 +27,7 @@ console.log(p)
 console.log(p.q === 'q is assigned')
 
 // 普通の関数
-const x = function () { return 'x' };
+const x = function () { return 'x' }
 const y = {
   apply: function (receiver, ...args) {
     return 'y'

@@ -16,7 +16,7 @@ a.set('c', 3)
 console.log(a)
 // a = new Map(['a', 4], ['b', 2], ['c', 3]) と等価
 
-const results = [];
+let results = [];
 a.forEach((value, key) => {
     results.push(`${key}:${value}`)
 })
@@ -52,7 +52,7 @@ p.add('c')
 console.log(p)
 // p = new Set(['a', 'b', 'c'])と等価
 
-results = [];
+results = []
 p.forEach((value) => {
     results.push(value)
 });

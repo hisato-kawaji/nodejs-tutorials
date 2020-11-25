@@ -7,18 +7,18 @@ const c = true
 console.log(a)
 console.log(b)
 console.log(c)
-console.log(type of a)
-console.log(type of b)
-console.log(type of c)
+console.log(typeof a)
+console.log(typeof b)
+console.log(typeof c)
 
 // 非推奨(Newする意味がない)
 const a2 = new Number(123)
 const b2 = new String("abc")
 const c2 = new Boolean(true)
 
-console.log(type of a)
-console.log(type of b)
-console.log(type of c)
+console.log(typeof a)
+console.log(typeof b)
+console.log(typeof c)
 
 // 型変換
 console.log(a)
