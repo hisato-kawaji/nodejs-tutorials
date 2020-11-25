@@ -1,4 +1,5 @@
 // Promiseの基礎
+// https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Promise
 
 const isNum = (a) => {
   return new Promise(
