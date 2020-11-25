@@ -78,4 +78,4 @@ const f = () => ({ foo: 1 })
 console.log(f())
 
 const sqrt = x => x * x
-cosole.log(squared(3))
+console.log(sqrt(3))
