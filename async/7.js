@@ -2,8 +2,7 @@
 
 async function t() {
   console.log('t start')
-  setTimeout(() => 0, 1000)
-  console.log('t end')
+  setTimeout(console.log, 2000, 't end')
 }
 
 t()
@@ -15,8 +14,7 @@ t()
 async function f() {
   console.log('f start')
   await t()
-  setTimeout(() => 0, 1000)
-  console.log('f end')
+  setTimeout(console.log, 5000, 'f end')
 }
 
 f()
