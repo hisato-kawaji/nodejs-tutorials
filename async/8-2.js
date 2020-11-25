@@ -7,12 +7,12 @@ const x = () => {
 }
 const a1 = async () => {
     console.log('a1 start')
-    await p
+    p
     console.log('a1 end')
 }
 const a2 = async () => {
     console.log('a2 start')
-    setTimeout(() => 0, 1000)
+    setTimeout(console.log, 5000, 'a2 is in processing')
     console.log('a2 end')
 }
 const p = new Promise(resolve => {
